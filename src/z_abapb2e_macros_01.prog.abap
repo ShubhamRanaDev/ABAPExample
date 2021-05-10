@@ -20,7 +20,7 @@ _println 'One' 'Two' 'Three'.
 *--Call the same macro multiple times
 _println : '11' '12' '13',
            '21' '22' '23',
-           '31' '32' '33'.
+           '31' '32' '34'.
 *--The same code without using a macro
   write : / '11',  '12',  '13'.
   write : / '21',  '22',  '23'.

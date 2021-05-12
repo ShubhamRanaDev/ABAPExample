@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>Z_ABAPB2E_PERF_02_PASSINFO</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <SUBC>1</SUBC>
     <RLOAD>E</RLOAD>
     <FIXPT>X</FIXPT>

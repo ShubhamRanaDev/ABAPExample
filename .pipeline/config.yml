@@ -20,8 +20,11 @@ stages:
   #   cfServiceKeyConfig: 'sap_com_0510.json'
   
 
-  Clone Repositories:
-    strategy: 'clone'
+  # Clone Repositories:
+  #   strategy: 'clone'
+  #   repositories: 'repositories.yml'
+  #   abapCredentialsId: 'abapCredentialsId'
+  abapEnvironmentPullGitRepo:
     repositories: 'repositories.yml'
     abapCredentialsId: 'abapCredentialsId'
   ATC:

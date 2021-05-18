@@ -1,4 +1,4 @@
 --- 
 repositories: 
-  branch: master
   name: "/DMO/https://github.com/ShubhamRanaDev/ABAPExample/tree/master/src"
+  branch: master

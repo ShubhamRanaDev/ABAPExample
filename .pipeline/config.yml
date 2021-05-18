@@ -24,7 +24,7 @@ stages:
   Clone Repositories:
     strategy: 'clone'
     repositories: 'repositories.yml'
-    abapCredentialsId: 'cfCredentialsId'
+    cfCredentialsId: 'cfCredentialsId'
   
   ATC:
     atcConfig: 'atcConfig.yml'

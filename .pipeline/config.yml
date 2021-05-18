@@ -5,7 +5,7 @@ general:
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'default_abap-trial'
   cfServiceKeyName: 'jenkins_sap_com_0510'
-  # abapCredentialsId: 'abapCredentialsId'
+  
 
 stages:
   # Prepare System:
@@ -24,6 +24,7 @@ stages:
   Clone Repositories:
     strategy: 'clone'
     repositories: 'repositories.yml'
+    abapCredentialsId: 'abapCredentialsId'
   
   ATC:
     atcConfig: 'atcConfig.yml'

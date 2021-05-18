@@ -10,6 +10,7 @@ stages:
   Prepare System:
     cfServiceInstance: 'default_abap-trial'
     cfService: 'abap-trial'
+    cfServicePlan: 'shared'
     email: 'shubhamr174@gmail.com'
     abapSystemDescription: 'ABAP Environment Q System'
     abapSystemIsDevelopmentAllowed: true

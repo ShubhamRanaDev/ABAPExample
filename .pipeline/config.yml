@@ -13,7 +13,7 @@ stages:
     cfServicePlan: 'standard'
     email: 'shubhamr174@gmail.com'
     abapSystemDescription: 'ABAP Environment Q System'
-    abapSystemIsDevelopmentAllowed: false
+    abapSystemIsDevelopmentAllowed: true
     abapSystemID: 'H02'
     abapSystemSizeOfPersistence: 4
     abapSystemSizeOfRuntime: 1

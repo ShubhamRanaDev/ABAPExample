@@ -2,7 +2,6 @@ general:
   cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
   cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
   cfSpace: 'dev'
-  abapCredentialsId: 'cfCredentialsId'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'default_abap-trial'
   cfServiceKeyName: 'jenkins_sap_com_0510'

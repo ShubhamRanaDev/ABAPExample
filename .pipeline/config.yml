@@ -18,6 +18,11 @@ stages:
   #   # abapSystemSizeOfPersistence: 4
   #   # abapSystemSizeOfRuntime: 1
   #   cfServiceKeyConfig: 'sap_com_0510.json'
+  cloudFoundryCreateServiceKey:
+        cfServiceKeyName: 'jenkins_sap_com_0510'
+        cfServiceKeyConfig: 'sap_com_0510.json'
+        cfCredentialsId: 'cfCredentialsId'
+
   Clone Repositories:
     strategy: 'clone'
     repositories: 'repositories.yml'

@@ -14,9 +14,9 @@ stages:
     email: 'shubhamr174@gmail.com'
     abapSystemDescription: 'ABAP Environment Q System'
     abapSystemIsDevelopmentAllowed: true
-    abapSystemID: 'H02'
-    abapSystemSizeOfPersistence: 4
-    abapSystemSizeOfRuntime: 1
+    # abapSystemID: 'H02'
+    # abapSystemSizeOfPersistence: 4
+    # abapSystemSizeOfRuntime: 1
     cfServiceKeyConfig: 'sap_com_0510.json'
   Clone Repositories:
     strategy: 'clone'

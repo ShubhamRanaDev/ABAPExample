@@ -5,7 +5,7 @@ general:
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'default_abap-trial'
   cfServiceKeyName: 'jenkins_sap_com_0510'
-  abapCredentialsId: 'abapCredentialsId'
+  # abapCredentialsId: 'abapCredentialsId'
 
 stages:
   # Prepare System:

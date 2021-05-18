@@ -17,7 +17,7 @@ stages:
     repositories: 'repositories.yml'
   ATC:
     atcConfig: 'atcConfig.yml'
-  Build:
-    cfServiceKeyName: 'JENKINS_SAP_COM_0582'
-    cfServiceKeyConfig: 'sap_com_0582.json'
+  # Build:
+  #   cfServiceKeyName: 'JENKINS_SAP_COM_0582'
+  #   cfServiceKeyConfig: 'sap_com_0582.json'
 

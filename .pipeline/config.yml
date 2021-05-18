@@ -6,12 +6,6 @@ general:
   cfServiceInstance: 'default_abap-trial'
   cfServiceKeyName: 'jenkins_sap_com_0510'
 
-steps:
-  cloudFoundryCreateServiceKey:
-        cfServiceKeyName: 'jenkins_sap_com_0510'
-        cfServiceKeyConfig: 'sap_com_0510.json'
-        cfCredentialsId: 'cfCredentialsId'
-        
 stages:
   # Prepare System:
   #   cfServiceInstance: 'default_abap-trial'
@@ -35,5 +29,9 @@ stages:
   #   cfServiceKeyName: 'JENKINS_SAP_COM_0582'
   #   cfServiceKeyConfig: 'sap_com_0582.json'
 
-
+steps:
+  cloudFoundryCreateServiceKey:
+        cfServiceKeyName: 'jenkins_sap_com_0510'
+        cfServiceKeyConfig: 'sap_com_0510.json'
+        cfCredentialsId: 'cfCredentialsId'
 

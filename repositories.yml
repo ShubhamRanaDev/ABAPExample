@@ -1,3 +1,3 @@
 repositories: 
-- name: '/DMO/Z_ABAPGitExample'
+- name: '/DMO/src/package.devc'
     branch: 'master'

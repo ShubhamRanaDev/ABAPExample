@@ -1,6 +1,3 @@
 repositories: 
-- name: '/DMO/ABAPExample/src'
+- name: '/DMO/ABAPExample/src/z_abapb2e_macros_01.prog'
     branch: 'master'
-  - name: '/DMO/z_abapb2e_macros_01.prog'
-    branch: 'feature'
-    commitID: 'cd87a3cac2bc946b7629580e58598c3db56a26f8'

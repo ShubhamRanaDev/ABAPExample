@@ -10,6 +10,7 @@ general:
 stages:
   Prepare System:
     cfServiceManifest: 'manifest.yml'
+    cfServiceKeyConfig: 'serviceKey.json'
     # cfService: 'abap-trial'
     # cfServicePlan: 'shared'
     # email: 'shubhamr174@gmail.com'
@@ -52,6 +53,14 @@ stages:
   #   cfDeleteServiceKeys: true
 
 steps:
+  # cloudFoundryCreateServiceKey:
+  #       cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  #       cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
+  #       cfSpace: 'dev'
+  #       cfServiceInstance: 'H02_Q_system'
+  #       cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+  #       cfServiceKeyConfig: 'sap_com_0510.json'
+  #       cfCredentialsId: 'cfCredentialsId'
   cloudFoundryDeleteService:
     cfDeleteServiceKeys: true
     

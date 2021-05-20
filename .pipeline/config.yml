@@ -6,7 +6,7 @@ general:
   cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'H02_Q_system'
-  cfServiceKeyName: 'cfServiceKeyName'
+  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
 stages:
   Prepare System:
     cfServiceManifest: 'manifest.yml'
@@ -22,6 +22,8 @@ stages:
     # abapSystemSizeOfRuntime: 1
     # includeAddon: false
   Clone Repositories:
+    cfServiceInstance: 'H02_Q_system'
+    cfServiceKeyName: 'JENKINS_SAP_COM_0510'
     repositories: 'repositories.yml'
     #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
     #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.

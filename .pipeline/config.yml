@@ -20,11 +20,11 @@ stages:
     # abapSystemSizeOfPersistence: 4
     # abapSystemSizeOfRuntime: 1
     # includeAddon: false
-  # Clone Repositories:
-  #   repositories: 'addon.yml'
-  #   #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
-  #   #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
-  #   strategy: 'Clone'
+  Clone Repositories:
+    repositories: 'repositories.yml'
+    #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
+    #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
+    strategy: 'Clone'
   # ATC:
   #   atcConfig: 'atcConfig.yml'
   # Build:

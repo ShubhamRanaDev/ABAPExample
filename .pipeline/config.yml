@@ -58,7 +58,7 @@ stages:
   #   confirmDeletion: true
   #   cfDeleteServiceKeys: true
 
-steps:
-  cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
+# steps:
+#   cloudFoundryDeleteService:
+#     cfDeleteServiceKeys: true
     

@@ -1,0 +1,6 @@
+---
+create-services:
+- name:   "H02_Q_system"
+  broker: "abap-trial"
+  plan:   "shared"
+  parameters: '{ "email" : "shubhamr174@gmail.com","abapSystemAdminEmail":"shubhamr174@gmail.com", "description" : "ABAP Environment Q System", "is_development_allowed" : true, "sapsystemname" : "H02", "size_of_persistence" : 4, "size_of_runtime" : 1 ,"username":"MyABAPEnvUser","password":"Shubham174#"}'

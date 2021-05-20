@@ -6,7 +6,7 @@ general:
   cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'H02_Q_system'
-  cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+  cfServiceKeyName: 'cfServiceKeyName'
 stages:
   Prepare System:
     cfServiceManifest: 'manifest.yml'

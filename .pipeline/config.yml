@@ -22,12 +22,10 @@ stages:
     # includeAddon: false
   Clone Repositories:
     repositories: 'repositories.yml'
-    cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-    cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
-    cfSpace: 'dev'
-    cfCredentialsId: 'cfAuthentification'
-    cfServiceInstance: 'H02_Q_system'
-    cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+    abapCredentialsId: 'abapCredentialsId'
+    host: '1234-abcd-5678-efgh-ijk.abap.eu10.hana.ondemand.com'
+    username: 'shubhamr174@gmail.com'
+    password: 'Abap174@'
     #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
     #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
     strategy: 'Clone'

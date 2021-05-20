@@ -1,3 +1,3 @@
 repositories: 
-- name: '/DMO/ABAPExample/src/z_abapb2e_macros_01.prog'
+- name: '/ABAPExample/src/z_abapb2e_macros_01.prog'
     branch: 'master'

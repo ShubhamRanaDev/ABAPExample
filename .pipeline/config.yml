@@ -5,7 +5,7 @@ general:
   cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
   cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
-  abapCredentialsId: 'cfAuthentification'
+  # abapCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'H02_Q_system'
   cfServiceKeyName: 'JENKINS_SAP_COM_0510'
 stages:

@@ -1,5 +1,5 @@
 --- 
 repositories: 
-  - name: "/0LOCAL/.git"
+  - name: "/0LOCAL/https://github.com/ShubhamRanaDev/ABAPExample.git"
     branch: master
     

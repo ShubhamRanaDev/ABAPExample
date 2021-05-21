@@ -23,7 +23,8 @@ stages:
     # includeAddon: false
   Clone Repositories:
     steps:
-      repositories: 'repositories.yml'
+      # repositories: 'repositories.yml'
+      repositoryName: '/DMO/src'
       cfCredentialsId: 'cfCredentialsId'
       cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
       cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'

@@ -23,18 +23,19 @@ stages:
     # includeAddon: false
   Clone Repositories:
     steps:
-      # repositories: 'repositories.yml'
-      repositoryNames: ['/https://github.com/ShubhamRanaDev/ABAPExample']
-      cfCredentialsId: 'cfCredentialsId'
-      cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-      cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
-      cfSpace: 'dev'
-      cfServiceInstance: 'H02_Q_system'
-      cfServiceKeyName: 'JENKINS_SAP_COM_0510'
+      abapEnvironmentCloneGitRepo:
+        # repositories: 'repositories.yml'
+        repositoryNames: ['/https://github.com/ShubhamRanaDev/ABAPExample']
+        cfCredentialsId: 'cfCredentialsId'
+        cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+        cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
+        cfSpace: 'dev'
+        cfServiceInstance: 'H02_Q_system'
+        cfServiceKeyName: 'JENKINS_SAP_COM_0510'
     # repositories: 'repositories.yml'
     # #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
     # #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
-    strategy: 'Clone'
+    # strategy: 'Clone'
  
     
   # ATC:

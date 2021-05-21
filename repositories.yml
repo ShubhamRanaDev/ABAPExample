@@ -1,5 +1,5 @@
 --- 
 repositories: 
-  - name: "/0LOCAL/z_abapb2e_macros_01"
+  - name: "/0LOCAL/.git"
     branch: master
     

@@ -1,3 +1,5 @@
+--- 
 repositories: 
-- name: 'DMO/https://github.com/ShubhamRanaDev/ABAPExample'
-  branch: 'master'
+  - 
+    branch: master
+    name: "DMO/https://github.com/ShubhamRanaDev/ABAPExample"

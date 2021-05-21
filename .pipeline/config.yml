@@ -35,7 +35,7 @@ stages:
     # repositories: 'repositories.yml'
     # #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
     # #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
-        # strategy: 'Clone'
+    strategy: 'Clone'
  
     
   # ATC:

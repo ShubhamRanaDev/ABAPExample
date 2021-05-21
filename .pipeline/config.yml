@@ -24,7 +24,7 @@ stages:
   Clone Repositories:
     steps:
       # repositories: 'repositories.yml'
-      repositoryNames: ['DMO/https://github.com/ShubhamRanaDev/ABAPExample.git']
+      repositoryNames: ['DMO/https://github.com/ShubhamRanaDev/ABAPExample.git', '/DMO/GIT_REPO']
       cfCredentialsId: 'cfCredentialsId'
       cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
       cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'

@@ -10,7 +10,7 @@ general:
 stages:
   Prepare System:
     cfServiceManifest: 'manifest.yml'
-    cfServiceKeyConfig: 'sap_com_0510.json'
+    cfServiceKeyConfig: 'serviceKey.json'
     # cfService: 'abap-trial'
     # cfServicePlan: 'shared'
     # email: 'shubhamr174@gmail.com'

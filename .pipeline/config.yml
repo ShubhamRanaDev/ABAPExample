@@ -25,7 +25,7 @@ stages:
     steps:
        abapEnvironmentCloneGitRepo:
         # repositories: 'repositories.yml'
-        repositoryNames: '/'
+        repository: 'ABAPExample'
         cfCredentialsId: 'cfCredentialsId'
         cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
         cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'

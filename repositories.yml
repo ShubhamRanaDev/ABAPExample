@@ -1,5 +1,5 @@
 repositories: 
   - 
-    name: '/git/Z_ABAPCOURSE'
+    name: '/ZLOCAL/Z_PACKAGE_DEMO'
     branch: 'master'
     

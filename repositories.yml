@@ -1,5 +1,5 @@
 --- 
 repositories: 
-  - name: '/DMO/ABAPExample'
+  - name: '/0LOCAL/Z_ABAPExample'
     branch: 'master'
     

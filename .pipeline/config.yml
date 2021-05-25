@@ -74,5 +74,5 @@ steps:
   #       cfServiceKeyConfig: 'sap_com_0510.json'
   #       cfCredentialsId: 'cfCredentialsId'
   cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
+    cfDeleteServiceKeys: false
     

@@ -1,4 +1,4 @@
 repositories: 
-  - name: '/0LOCAL/Z_ABAPExample'
+  - name: '/0LOCAL/Z_ABAPEXAMPLE'
     branch: 'master'
     

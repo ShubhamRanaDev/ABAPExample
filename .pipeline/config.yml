@@ -24,7 +24,7 @@ stages:
     # includeAddon: false
   Clone Repositories:
     steps:
-       abapEnvironmentCloneGitRepo:
+      #  abapEnvironmentCloneGitRepo:
         repositories: 'repositories.yml'
         # repositoryName: /0LOCAL/demo'
         # branchName: 'master'

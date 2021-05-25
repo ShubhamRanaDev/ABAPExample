@@ -24,7 +24,7 @@ stages:
   Clone Repositories:
     steps:
        abapEnvironmentCloneGitRepo:
-        #repositories: 'repositories.yml'
+        repositories: 'repositories.yml'
         # repositoryName: /0LOCAL/demo'
         # branchName: 'master'
         cfCredentialsId: 'cfCredentialsId'

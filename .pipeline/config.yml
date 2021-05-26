@@ -23,7 +23,6 @@ stages:
     # abapSystemSizeOfRuntime: 1
     # includeAddon: false
   Clone Repositories:
-    steps:
       #  abapEnvironmentCloneGitRepo:
         repositories: 'repositories.yml'
         # repositoryName: /0LOCAL/demo'

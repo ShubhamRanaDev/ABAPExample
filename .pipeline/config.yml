@@ -33,6 +33,8 @@ stages:
         cfSpace: 'dev'
         cfServiceInstance: 'development'
         cfServiceKeyName: 'connect'
+        abapCredentialsId: 'cfCredentialsId2'
+        host: 'aa626a85-2ade-4727-9a6b-ae2f0f5cb38b.abap-web.us10.hana.ondemand.com'
         strategy: 'Clone'
     # repositories: 'repositories.yml'
     # #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.

@@ -33,10 +33,11 @@ stages:
         cfSpace: 'dev'
         cfServiceInstance: 'development'
         cfServiceKeyName: 'connect'
+        strategy: 'Clone'
     # repositories: 'repositories.yml'
     # #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
     # #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
-    # strategy: 'Clone'
+    
  
     
   # ATC:
@@ -74,5 +75,5 @@ steps:
   #       cfServiceKeyConfig: 'sap_com_0510.json'
   #       cfCredentialsId: 'cfCredentialsId'
   cloudFoundryDeleteService:
-    cfDeleteServiceKeys: false
+    cfDeleteServiceKeys: true
     

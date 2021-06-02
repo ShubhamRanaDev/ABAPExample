@@ -17,10 +17,10 @@ end-of-definition.
 _println 'One' 'Two' 'Three'.
 
 
-*--Call the same macro multiple times
+*--Call the same macro multiple times for feature
 _println : '11' '12' '13',
            '21' '22' '23',
-           '31' '32' '34'.
+           '31' '32' '33'.
 *--The same code without using a macro
   write : / '11',  '12',  '13'.
   write : / '21',  '22',  '23'.

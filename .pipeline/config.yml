@@ -35,6 +35,6 @@ stages:
     ##abap user= CC_USER
     ##abap pass = hXRunjwHKiJF6feodfNUkJkqZygWSSfRTJEixL-e
 
-steps:
- cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
+# steps:
+#  cloudFoundryDeleteService:
+#     cfDeleteServiceKeys: true

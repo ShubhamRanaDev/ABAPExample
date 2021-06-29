@@ -10,6 +10,10 @@ general:
 stages:
 
   Prepare System:
+    cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+    cfOrg: '38f8e24e-106e-4fc8-bc13-48d06740411d'
+    cfSpace: 'dev'
+    cfCredentialsId: 'cfAuthentification'
     cfService: 'abap'
     cfServicePlan: 'standard'
     abapSystemAdminEmail: 'shubhamr174@gmail.com'

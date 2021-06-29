@@ -17,7 +17,7 @@ stages:
   Prepare System:
     cfService: 'abap'
     cfServicePlan: 'standard'
-    abapSystemAdminEmail: 'shubhamr174@gmail.com'
+    abapSystemAdminEmail: 'alex.tenin@cgi.com'
     abapSystemDescription: 'ABAP Environment Q System'
     abapSystemIsDevelopmentAllowed: false
     abapSystemID: 'H02'
@@ -25,12 +25,12 @@ stages:
     abapSystemSizeOfRuntime: 1
     cfServiceKeyConfig: 'sap_com_0510.json'
 
-  Clone Repositories:
-      repositories: 'repositories.yml'
-      strategy: 'Clone'
+  # Clone Repositories:
+  #     repositories: 'repositories.yml'
+  #     strategy: 'Clone'
   
-  ATC:
-    atcConfig: 'atcConfig.yml'
+  # ATC:
+  #   atcConfig: 'atcConfig.yml'
 
     ##abap user= CC_USER
     ##abap pass = hXRunjwHKiJF6feodfNUkJkqZygWSSfRTJEixL-e

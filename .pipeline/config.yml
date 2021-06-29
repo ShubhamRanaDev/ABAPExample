@@ -19,7 +19,7 @@ stages:
     cfServicePlan: 'standard'
     abapSystemAdminEmail: 'alex.tenin@cgi.com'
     abapSystemDescription: 'ABAP Environment Q System'
-    abapSystemIsDevelopmentAllowed: false
+    abapSystemIsDevelopmentAllowed: true
     abapSystemID: 'H02'
     abapSystemSizeOfPersistence: 4
     abapSystemSizeOfRuntime: 1
@@ -35,6 +35,6 @@ stages:
     ##abap user= CC_USER
     ##abap pass = hXRunjwHKiJF6feodfNUkJkqZygWSSfRTJEixL-e
 
-# steps:
-#  cloudFoundryDeleteService:
-#     cfDeleteServiceKeys: true
+steps:
+ cloudFoundryDeleteService:
+    cfDeleteServiceKeys: false

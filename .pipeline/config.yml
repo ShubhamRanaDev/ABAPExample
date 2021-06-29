@@ -1,95 +1,19 @@
 general:
-  # abapAddonAssemblyKitCredentialsId: 'TechUserAAKaaS'
-  # addonDescriptorFileName: 'addon.yml'
+  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: '38f8e24e-106e-4fc8-bc13-48d06740411d'
+  cfSpace: 'dev'
+  cfCredentialsId: 'cfAuthentification'
+  host: '49a2d9c8-2849-46e2-bf98-537e3437c07d.abap.eu10.hana.ondemand.com'
+  abapCredentialsId: 'abapcred'
+
   
 stages:
-  Prepare System:
-    cfServiceManifest: 'manifest.yml'
-    cfServiceKeyConfig: 'serviceKey.json'
-    cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-    cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
-    cfSpace: 'dev'
-    cfCredentialsId: 'cfAuthentification'
-    cfServiceInstance: 'H02_Q_system'
-    cfServiceKeyName: 'JENKINS_SAP_COM_0510'
-    # cfService: 'abap-trial'
-    # cfServicePlan: 'shared'
-    # email: 'shubhamr174@gmail.com'
-    # abapSystemAdminEmail: 'shubhamr174@gmail.com'
-    # abapSystemDescription: 'Assembly System'
-    # abapSystemIsDevelopmentAllowed: false
-    # abapSystemID: 'BLD'
-    # abapSystemSizeOfPersistence: 4
-    # abapSystemSizeOfRuntime: 1
-    # includeAddon: false
   Clone Repositories:
-      #  abapEnvironmentCloneGitRepo:
-        repositories: 'repositories.yml'
-        # repositoryName: /0LOCAL/demo'
-        # branchName: 'master'
-        # cfCredentialsId: 'cfCredentialsId2'
-        # cfApiEndpoint: 'https://api.cf.us10.hana.ondemand.com'
-        # cfOrg: 'a3e3dee3trial'
-        # cfSpace: 'dev'
-        # cfServiceInstance: 'development'
-        # cfServiceKeyName: 'connect'
-        # abapCredentialsId: 'cfCredentialsId2'
-        cfServiceKeyConfig: 'serviceKey.json'
-        cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
-        cfSpace: 'dev'
-        cfCredentialsId: 'cfAuthentification'
-        cfServiceInstance: 'H02_Q_system'
-        cfServiceKeyName: 'JENKINS_SAP_COM_0510'
-        strategy: 'Clone'
-    # repositories: 'repositories.yml'
-    # #strategy: 'Clone' is recommended if a new system is created in the Prepare System stage.
-    # #strategy: 'CheckoutPull' is recommended if a static system is used. The software component should be cloned beforehand.
-    
- 
-    
-  # ATC:
-  #   atcConfig: 'atcConfig.yml'
-  # Build:
-  #   cfServiceKeyName: 'JENKINS_SAP_COM_0582'
-  #   cfServiceKeyConfig: 'sap_com_0582.json'
-  # Integration Tests:
-  #   cfOrg: 'myOrgAti'
-  #   cfSpace: 'mySpaceAti'
-  #   cfServiceInstance: 'ati_system'
-  #   cfService: 'abap'
-  #   cfServicePlan: 'saas_oem'
-  #   abapSystemAdminEmail: 'user@example.com'
-  #   abapSystemDescription: 'Add-on Installation Test System'
-  #   abapSystemIsDevelopmentAllowed: false
-  #   abapSystemID: 'ATI'
-  #   abapSystemSizeOfPersistence: 4
-  #   abapSystemSizeOfRuntime: 1
-  #   includeAddon: true
-  #   confirmDeletion: true
-  # Publish:
-  #   targetVectorScope: 'P'
-  # Post:
-  #   confirmDeletion: true
-  #   cfDeleteServiceKeys: true
-
-steps:
-  # cloudFoundryCreateServiceKey:
-  #       cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-  #       cfOrg: '18d6e1batrial_3swc8q06zf9gdwpj'
-  #       cfSpace: 'dev'
-  #       cfServiceInstance: 'H02_Q_system'
-  #       cfServiceKeyName: 'JENKINS_SAP_COM_0510'
-  #       cfServiceKeyConfig: 'sap_com_0510.json'
-  #       cfCredentialsId: 'cfCredentialsId'
-  cloudFoundryDeleteService:
-    cfDeleteServiceKeys: true
-    
-
-
-
-
-
+      repositories: 'repositories.yml'
+      strategy: 'Clone'
+  
+  ATC:
+    atcConfig: 'atcConfig.yml'
 
     ##abap user= CC_USER
     ##abap pass = hXRunjwHKiJF6feodfNUkJkqZygWSSfRTJEixL-e

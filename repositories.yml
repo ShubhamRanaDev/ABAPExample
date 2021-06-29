@@ -1,5 +1,5 @@
 repositories: 
   - 
-    name: '/ZLOCAL/Z_PACKAGE_DEMO'
+    name: '/ZLOCAL/Z_SHUBHAM/Z_TEST'
     branch: 'master'
     

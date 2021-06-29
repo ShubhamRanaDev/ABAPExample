@@ -5,6 +5,12 @@ general:
   # cfCredentialsId: 'cfAuthentification'
   # host: '49a2d9c8-2849-46e2-bf98-537e3437c07d.abap.eu10.hana.ondemand.com'
   # abapCredentialsId: 'abapcred'
+  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfOrg: 'CGI_Technologies and Solutions Inc._ds-k49322hx5w2x0'
+  cfSpace: 'dev'
+  cfCredentialsId: 'cfAuthentification'
+  cfService: 'abap'
+  cfServicePlan: 'standard'
 
   
 stages:

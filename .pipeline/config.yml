@@ -8,22 +8,21 @@ general:
 
   
 stages:
-
-  # Prepare System:
-  #   steps:
-  #     cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-  #     cfOrg: 'CGI_Technologies and Solutions Inc._ds-k49322hx5w2x0'
-  #     cfSpace: 'dev'
-  #     cfCredentialsId: 'cfAuthentification'
-  #     cfService: 'abap'
-  #     cfServicePlan: 'standard'
-  #     abapSystemAdminEmail: 'shubhamr174@gmail.com'
-  #     abapSystemDescription: 'ABAP Environment Q System'
-  #     abapSystemIsDevelopmentAllowed: false
-  #     abapSystemID: 'H02'
-  #     abapSystemSizeOfPersistence: 4
-  #     abapSystemSizeOfRuntime: 1
-  #     cfServiceKeyConfig: 'sap_com_0510.json'
+  Prepare System:
+    steps:
+      cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+      cfOrg: 'CGI_Technologies and Solutions Inc._ds-k49322hx5w2x0'
+      cfSpace: 'dev'
+      cfCredentialsId: 'cfAuthentification'
+      cfService: 'abap'
+      cfServicePlan: 'standard'
+      abapSystemAdminEmail: 'shubhamr174@gmail.com'
+      abapSystemDescription: 'ABAP Environment Q System'
+      abapSystemIsDevelopmentAllowed: false
+      abapSystemID: 'H02'
+      abapSystemSizeOfPersistence: 4
+      abapSystemSizeOfRuntime: 1
+      cfServiceKeyConfig: 'sap_com_0510.json'
 
   Clone Repositories:
       repositories: 'repositories.yml'

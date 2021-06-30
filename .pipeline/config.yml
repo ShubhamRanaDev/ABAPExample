@@ -4,7 +4,7 @@ general:
   # cfSpace: 'dev'
   # cfCredentialsId: 'cfAuthentification'
   host: '985d2012-0f3f-40b1-8d57-d12e1ec11b1b.abap.eu10.hana.ondemand.com'
-  abapCredentialsId: 'abapCredentialsId'
+  abapCredentialsId: 'abapsystem'
   # cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
   # cfOrg: 'CGI_Technologies and Solutions Inc._ds-k49322hx5w2x0'
   # cfSpace: 'dev'

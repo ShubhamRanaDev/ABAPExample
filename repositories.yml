@@ -1,5 +1,5 @@
 repositories: 
   - 
-    name: '/Z_TEST/Z_SHUBHAM'
+    name: '/Z_TEST'
     branch: 'master'
     

@@ -28,6 +28,7 @@ stages:
   Clone Repositories:
       repositories: 'repositories.yml'
       strategy: 'Pull'
+      verbose: true
   ATC:
     atcConfig: 'atcConfig.yml'
 

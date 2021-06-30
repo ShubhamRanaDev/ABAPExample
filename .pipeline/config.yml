@@ -29,8 +29,8 @@ stages:
       repositories: 'repositories.yml'
       strategy: 'Pull'
       verbose: true
-  # ATC:
-  #   atcConfig: 'atcConfig.yml'
+  ATC:
+    atcConfig: 'atcConfig.yml'
 
     ##abap user= CC_USER
     ##abap pass = XRu>Ha9KEAGiLQnqpqceSQBburNTUgApjSXsKhbo

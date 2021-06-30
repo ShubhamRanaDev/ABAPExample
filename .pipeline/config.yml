@@ -27,7 +27,7 @@ stages:
 
   Clone Repositories:
       repositories: 'repositories.yml'
-      strategy: 'CheckoutPull'
+      strategy: 'Pull'
   ATC:
     atcConfig: 'atcConfig.yml'
 

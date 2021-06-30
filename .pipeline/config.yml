@@ -33,6 +33,7 @@ stages:
 
     ##abap user= CC_USER
     ##abap pass = XRu>Ha9KEAGiLQnqpqceSQBburNTUgApjSXsKhbo
+    ## host =985d2012-0f3f-40b1-8d57-d12e1ec11b1b.abap.eu10.hana.ondemand.com/sap/opu/odata/sap/MANAGE_GIT_REPOSITORY
 
 steps:
  cloudFoundryDeleteService:

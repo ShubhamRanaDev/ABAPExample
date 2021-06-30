@@ -1,5 +1,4 @@
 repositories: 
-  - 
-    name: '/Z_TEST'
-    branch: 'master'
+- name: '/Z_TEST'
+  branch: 'master'
     
